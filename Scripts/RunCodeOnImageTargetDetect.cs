@@ -14,8 +14,6 @@ public class RunCodeOnImageTargetDetect : MonoBehaviour, ITrackableEventHandler
 {
 	private TrackableBehaviour mTrackableBehaviour;
 
-	public string targetScene = "";
-
 	void Start()
 	{
 		mTrackableBehaviour = GetComponent<TrackableBehaviour>();
